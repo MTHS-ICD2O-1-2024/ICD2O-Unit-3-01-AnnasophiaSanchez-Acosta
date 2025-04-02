@@ -9,21 +9,15 @@
 /**
  * This function calculates area of a triangle.
  */
-function calculateAreaOfTriangle() {
+function calculateAreaOfTrapezoid() {
   // input
-  const baseA = parseFloat(
-    document.getElementById("base-A").value
-  )
-  const baseB = parseFloat(
-    document.getElementById("base-B").value
-  )
-  const height = parseFloat(
-    document.getElementById("height").value
-  )
+  const baseA = parseFloat(document.getElementById("base-A").value)
+  const baseB = parseFloat(document.getElementById("base-B").value)
+  const height = parseFloat(document.getElementById("height").value)
   // process (corrected formula)
-  const areaOfTriangle = (baseA * heightOfTriangle) / 2
+  const areaOfTrapezoid = (height * (baseA + baseB)) / 2
 
   // output
   document.getElementById("area").innerHTML =
-    "Area is: " + areaOfTriangle + " cm²"
+    "Area is: " + areaOfTrapezoid + " cm²"
 }
