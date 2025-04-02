@@ -15,10 +15,10 @@ function calculateAreaOfTriangle() {
     document.getElementById("base-A").value
   )
   const baseB = parseFloat(
-    document.getElementById("height-of-triangle").value
+    document.getElementById("base-B").value
   )
   const height = parseFloat(
-    document.getElementById("height-of-triangle").value
+    document.getElementById("height").value
   )
   // process (corrected formula)
   const areaOfTriangle = (baseA * heightOfTriangle) / 2
